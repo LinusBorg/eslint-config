@@ -7,8 +7,13 @@
   "repository": "https://github.com/linusborg/eslint-config.git",
   "version": "0.1.0",
   "description": "Personal Eslint config presets",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "no-vue.js",
+    "base.js",
+    "package.json"
+  ],
   "scripts": {
     "lint": "eslint *.js"
   },

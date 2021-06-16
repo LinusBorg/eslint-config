@@ -7,4 +7,5 @@ Included:
 - @typescript-eslint
 - prettier
 - eslint-plugin-unused-imports
-- Vue support (via `@linusborg/eslint-config/ts-vue`)
+- Vue support (default)
+  - optional without vue via `@linusborg/eslint-config/no-vue`
