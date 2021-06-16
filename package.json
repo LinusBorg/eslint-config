@@ -8,6 +8,9 @@
   "version": "0.1.0",
   "description": "Personal Eslint config presets",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "files": [
     "no-vue.js",
