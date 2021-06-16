@@ -1,7 +1,6 @@
 // module.exports = require("./base.js");
 module.exports = {
-  extends: ['./base.js'],
-  // extends: ["./ts-vue.js"]
+  extends: ['./index.js'],
   overrides: [
     {
       files: ['*.js', '*.jsx'],
