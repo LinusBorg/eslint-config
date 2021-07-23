@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['@typescript-eslint', 'unused-imports'],
+  plugins: ['@typescript-eslint', 'unused-imports', 'no-autofix'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -23,8 +23,8 @@ module.exports = {
   ],
   rules: {
     'no-unused-vars': 'off',
-    'unused-imports/no-unused-imports': 'warn',
-    'unused-imports/no-unused-vars': [
+    'no-autofix/unused-imports/no-unused-imports': 'warn',
+    'no-autofix/unused-imports/no-unused-vars': [
       'warn',
       {
         vars: 'all',
