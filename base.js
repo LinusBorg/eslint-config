@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['@typescript-eslint', 'unused-imports', 'no-autofix'],
+  plugins: ['@typescript-eslint/eslint-plugin', 'unused-imports', 'no-autofix'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
