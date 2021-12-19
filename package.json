@@ -5,7 +5,7 @@
     "url": "https://www.linusb.org"
   },
   "repository": "https://github.com/linusborg/eslint-config.git",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Personal Eslint config presets",
   "license": "MIT",
   "publishConfig": {
@@ -48,7 +48,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-no-autofix": "^1.1.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-unused-imports": "^1.1.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "eslint-plugin-vue": "^8.0.3"
   }
 }
