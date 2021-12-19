@@ -3,7 +3,6 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
   parser: require.resolve('@typescript-eslint/parser'),
@@ -12,15 +11,6 @@ module.exports = {
       jsx: true,
     },
   },
-  overrides: [
-    {
-      files: ['*.spec.ts', '*.spec.js'],
-      env: {
-        jest: true,
-        browser: true,
-      },
-    },
-  ],
   rules: {
     'no-unused-vars': 'off',
     'no-autofix/unused-imports/no-unused-imports': 'warn',
