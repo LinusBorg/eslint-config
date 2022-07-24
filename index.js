@@ -4,9 +4,6 @@ module.exports = {
     parser: require.resolve('@typescript-eslint/parser'),
     extraFileExtensions: ['.vue'],
   },
-  env: {
-    'vue/setup-compiler-macros': true,
-  },
   rules: {
     'vue/multi-word-component-names': 'off',
     'vue/script-setup-uses-vars': 'warn',
