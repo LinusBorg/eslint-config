@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./base', 'plugin:vue/vue3-essential'],
+  extends: ['./base.cjs', 'plugin:vue/vue3-essential'],
   parserOptions: {
     parser: require.resolve('@typescript-eslint/parser'),
     extraFileExtensions: ['.vue'],

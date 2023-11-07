@@ -1,5 +1,4 @@
-// module.exports = require("./base.js");
-module.exports = {
+export default {
   extends: ['./index.js'],
   overrides: [
     {
