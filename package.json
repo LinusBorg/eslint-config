@@ -1,56 +1,67 @@
 {
-  "name": "@linusborg/eslint-config",
-  "author": {
-    "name": "Thorsten Lünborg",
-    "url": "https://www.linusb.org"
-  },
-  "repository": "https://github.com/linusborg/eslint-config.git",
-  "version": "0.4.0",
-  "description": "Personal Eslint config presets",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "type": "commonjs",
-  "main": "index.cjs",
-  "module": "index.cjs",
-  "files": [
-    "index.cjs",
-    "base.cjs",
-    "package.json"
-  ],
-  "scripts": {
-    "lint": "eslint *.js"
-  },
-  "peerDependencies": {
-    "eslint": "^8.0.0",
-    "prettier": "^3.0.0",
-    "typescript": "^5.0.0"
-  },
-  "peerDependenciesMeta": {
-    "eslint": {
-      "optional": true
-    },
-    "prettier": {
-      "optional": true
-    },
-    "typescript": {
-      "optional": true
-    }
-  },
-  "devDependencies": {
-    "eslint": "^8.53.0",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2",
-    "vue": "^3.2.37"
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.10.0",
-    "@typescript-eslint/parser": "^6.10.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-no-autofix": "^1.1.2",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-unused-imports": "^3.0.0",
-    "eslint-plugin-vue": "^9.18.1"
-  }
+	"name": "@linusborg/eslint-config",
+	"author": {
+		"name": "Thorsten Lünborg",
+		"url": "https://www.linusb.org"
+	},
+	"repository": "https://github.com/linusborg/eslint-config.git",
+	"version": "0.5.0",
+	"description": "Personal Eslint config presets",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"main": "index.mjs",
+	"module": "index.mjs",
+	"exports": {
+		"import": "./index.mjs",
+		"default": "./index.mjs"
+	},
+	"files": [
+		"index.mjs",
+		"base.mjs",
+		"package.json"
+	],
+	"scripts": {
+		"lint": "eslint tests/*.vue"
+	},
+	"peerDependencies": {
+		"eslint": "^8.0.0",
+		"prettier": "^3.0.0",
+		"typescript": "^5.0.0"
+	},
+	"peerDependenciesMeta": {
+		"eslint": {
+			"optional": true
+		},
+		"prettier": {
+			"optional": true
+		},
+		"typescript": {
+			"optional": true
+		}
+	},
+	"devDependencies": {
+		"eslint": "^9.24.0",
+		"prettier": "^3.0.3",
+		"typescript": "^5.2.2",
+		"vue": "^3.2.37"
+	},
+	"dependencies": {
+		"@eslint/js": "^9.24.0",
+		"@typescript-eslint/eslint-plugin": "^8.29.1",
+		"@typescript-eslint/parser": "^8.29.1",
+		"eslint-config-prettier": "^10.1.1",
+		"eslint-plugin-no-autofix": "^2.1.0",
+		"eslint-plugin-prettier": "^5.0.1",
+		"eslint-plugin-unused-imports": "^4.1.4",
+		"eslint-plugin-vue": "^10.0.0",
+		"globals": "^16.0.0",
+		"typescript-eslint": "^8.29.1",
+		"vue-eslint-parser": "^10.1.3"
+	}
 }

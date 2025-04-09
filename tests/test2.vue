@@ -2,11 +2,13 @@
 import { ref } from 'vue'
 import Test1 from './Test1.vue'
 
-defineProps<{ name: string }>()
+const props = defineProps<{ name: string }>()
 
 const message = ref('hello')
+
+const msg = 'test'
 </script>
 <template>
-  <div>{{ message }}</div>
-  <Test1 />
+	<div>{{ message }}</div>
+	<Test1 />
 </template>
