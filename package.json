@@ -4,7 +4,10 @@
 		"name": "Thorsten Lünborg",
 		"url": "https://www.linusb.org"
 	},
-	"repository": "https://github.com/linusborg/eslint-config.git",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/linusborg/eslint-config.git"
+	},
 	"version": "0.5.0",
 	"description": "Personal Eslint config presets",
 	"license": "MIT",
